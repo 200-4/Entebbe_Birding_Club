@@ -109,7 +109,9 @@ h1,h2,h3,h4{
 .btn:hover{transform:translateY(-2px);}
 .btn--solid{background:var(--pine-900);color:var(--parchment-100);}
 .btn--solid:hover{background:var(--ink-900);}
-.btn--gold{background:var(--gold-500);color:var(--ink-900);}
+.btn--gold{
+  background:var(--gold-500);
+  color:var(--parchment-100);}
 .btn--gold:hover{background:var(--gold-600);}
 .btn--outline{border-color:currentColor;background:transparent;}
 .btn--outline.on-dark{color:var(--parchment-100);}
@@ -256,7 +258,7 @@ h1,h2,h3,h4{
   font-family:var(--font-mono);
   font-size:12px;letter-spacing:.16em;
   text-transform:uppercase;
-  color:var(--gold-500);
+  color:var(--parchment-100);
   margin-bottom:18px;
   opacity:0;
   transform:translateY(14px);
@@ -590,7 +592,7 @@ h1,h2,h3,h4{
    CTA / MEMBERSHIP
    ========================================================= */
 .cta{
-  background:var(--gold-500);
+  background:var(--parchment-100);
   padding:70px 0;
 }
 .cta-inner{

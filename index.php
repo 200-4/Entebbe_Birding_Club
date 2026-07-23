@@ -6,7 +6,7 @@
     <img src="images/entebbe_birding (10).jpg" alt="Hero slide 1" />
     <div class="hero-scrim"></div>
     <div class="hero-content container">
-      <span class="hero-tag">Bird Exploration</span>
+      <span class="hero-tag">Bird - Explore - Excursions</span>
       <h1 class="hero-title">THE BEST BIRDING CLUB IN UGANDA</h1>
       <p class="hero-sub">Let's Enjoy.Learn - Discover Uganda's Beauty Together.Plan your visit today and immerse yourself in the sights and sounds of nature.</p>
       <div class="hero-btn-row"><a href="#about-us" class="btn btn--gold">Become a Member</a></div>
@@ -17,8 +17,8 @@
     <img src="images/entebbe_birding (20).jpg" alt="Hero slide 2" />
     <div class="hero-scrim"></div>
     <div class="hero-content container">
-      <span class="hero-tag">Bird Exploration</span>
-      <h1 class="hero-title">THE BEST BIRDING CLUB IN UGAND</h1>
+      <span class="hero-tag">Bird - Explore - Excursions</span>
+      <h1 class="hero-title">THE BEST BIRDING CLUB IN UGANDA</h1>
       <p class="hero-sub">Discover the magic of birdwatching in one of the most biodiverse locations on Earth</p>
       <div class="hero-btn-row"><a href="#about-us" class="btn btn--gold">Become a Member</a></div>
     </div>
@@ -28,7 +28,7 @@
     <img src="images/entebbe_birding (30).jpg" alt="Hero slide 3" />
     <div class="hero-scrim"></div>
     <div class="hero-content container">
-      <span class="hero-tag">Bird Exploration</span>
+      <span class="hero-tag">Bird - Explore - Excursionsn</span>
       <h1 class="hero-title">THE BEST BIRDING CLUB IN UGANDA</h1>
       <p class="hero-sub">Whether you're an avid birder or a curious explorer, our guided tours, serene landscapes, and rare bird species offer an unforgettable experience.</p>
       <div class="hero-btn-row"><a href="#about-us" class="btn btn--gold">Become a Member</a></div>
@@ -51,7 +51,7 @@
     <div class="intro-card reveal">
       <span class="eyebrow">Est. Entebbe, Uganda</span>
       <h2>Entebbe Birding Club</h2>
-      <p class="tagline">Birdwatching · Bird Encounters · Gorilla Trekking</p>
+      <p class="tagline">Bird · Explore · Excursions</p>
       <div class="intro-divider"></div>
       <a href="#destinations" class="btn btn--solid">Let's Start Birdwatching</a>
     </div>
@@ -169,22 +169,22 @@
         <div class="team-photo">
           <svg viewBox="0 0 200 200"><rect width="200" height="200" fill="#204329"/><circle cx="100" cy="80" r="38" fill="#e8ece0"/><path d="M50 190 C50 140 140 140 150 190Z" fill="#a63d2f"/></svg>
         </div>
-        <h4>David Miiro</h4>
-        <span>Director</span>
+        <h4>Bayo Noel</h4>
+        <span>Founder</span>
       </div>
       <div class="team-card reveal">
         <div class="team-photo">
           <svg viewBox="0 0 200 200"><rect width="200" height="200" fill="#345a3b"/><circle cx="100" cy="80" r="38" fill="#f6f1e4"/><path d="M50 190 C50 140 140 140 150 190Z" fill="#16301f"/></svg>
         </div>
-        <h4>Claire Nabatanzi</h4>
-        <span>Tour Guide</span>
+        <h4>Miiro David</h4>
+        <span>Co-Founder</span>
       </div>
       <div class="team-card reveal">
         <div class="team-photo">
           <svg viewBox="0 0 200 200"><rect width="200" height="200" fill="#16301f"/><circle cx="100" cy="80" r="38" fill="#f6f1e4"/><path d="M50 190 C50 140 140 140 150 190Z" fill="#a63d2f"/></svg>
         </div>
-        <h4>Claire Nabatanzi</h4>
-        <span>Tour Guide</span>
+        <h4>Nakalema Linda</h4>
+        <span>Secretary</span>
       </div>
     </div>
   </div>
@@ -223,7 +223,7 @@
       <h2>Become a member of Entebbe Birding Club</h2>
       <p>Join our excursions, learn from senior guides, and help protect the habitats our birds depend on.</p>
     </div>
-    <a href="tel:+256778557355" class="btn btn--solid">Call 0778 557 355</a>
+    <a href="tel:+256700603938" class="btn btn--solid">Call +256 700 603 938</a>
   </div>
 </section>
 <?php include 'footer.php'; ?>
