@@ -267,7 +267,7 @@ h1,h2,h3,h4{
   animation:heroFadeUp .8s ease .3s forwards;
 }
 .hero-title{
-  font-size:clamp(38px,6vw,74px);
+  font-size:clamp(28px,4vw,62px);
   color:var(--parchment-100);
   max-width:760px;
   opacity:0;

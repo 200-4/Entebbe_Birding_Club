@@ -7,7 +7,7 @@
     <div class="hero-scrim"></div>
     <div class="hero-content container">
       <span class="hero-tag">Bird - Explore - Excursions</span>
-      <h1 class="hero-title">THE BEST BIRDING CLUB IN UGANDA</h1>
+      <h1 class="hero-title">The Best Birding Club In Uganda</h1>
       <p class="hero-sub">Let's Enjoy.Learn - Discover Uganda's Beauty Together.Plan your visit today and immerse yourself in the sights and sounds of nature.</p>
       <div class="hero-btn-row"><a href="#about-us" class="btn btn--gold">Become a Member</a></div>
     </div>
@@ -18,7 +18,7 @@
     <div class="hero-scrim"></div>
     <div class="hero-content container">
       <span class="hero-tag">Bird - Explore - Excursions</span>
-      <h1 class="hero-title">THE BEST BIRDING CLUB IN UGANDA</h1>
+      <h1 class="hero-title">You Must Have the Bird in Your Heart Before You can Find It in the Bush</h1>
       <p class="hero-sub">Discover the magic of birdwatching in one of the most biodiverse locations on Earth</p>
       <div class="hero-btn-row"><a href="#about-us" class="btn btn--gold">Become a Member</a></div>
     </div>
@@ -29,7 +29,7 @@
     <div class="hero-scrim"></div>
     <div class="hero-content container">
       <span class="hero-tag">Bird - Explore - Excursionsn</span>
-      <h1 class="hero-title">THE BEST BIRDING CLUB IN UGANDA</h1>
+      <h1 class="hero-title">A Heart without Dreams is LIke a Heart Without Feathers</h1>
       <p class="hero-sub">Whether you're an avid birder or a curious explorer, our guided tours, serene landscapes, and rare bird species offer an unforgettable experience.</p>
       <div class="hero-btn-row"><a href="#about-us" class="btn btn--gold">Become a Member</a></div>
     </div>
@@ -96,7 +96,7 @@
           <img src="images/entebbe_birding (13).jpg" alt="Kibale Forest" />
         </div>
         <div class="dest-body">
-          <h3>Kibale Forest Birding</h3>
+          <h3>UWEC-CA</h3>
           <p>EBC hold excursions at UWEC-CA every Friday of the week where go to learn animals, their environment and their behaviour</p>
         </div>
       </article>
