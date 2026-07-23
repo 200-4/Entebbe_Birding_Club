@@ -15,12 +15,13 @@
       </div>
 
       <div class="footer-col">
-        <h4>Expect These on Safari</h4>
+        <h4>Expect These on Excursions</h4>
         <ul>
-          <li><a href="#destinations">Bird Watching Safari</a></li>
-          <li><a href="#holiday">Wildlife Safari Adventures</a></li>
-          <li><a href="#destinations">Shoebill Canoe Trips</a></li>
-          <li><a href="#holiday">Gorilla Trekking Add-On</a></li>
+          <li>Shoebill Trips</li>
+          <li>Birdingg in National Parks</li>
+          <li>Birding at UWEC_CA</li>
+          <li>Birding at Entebbe Botanical Gardens</li>
+          <li>Birding at Lutembe Swamp</li>
         </ul>
       </div>
 
@@ -29,7 +30,6 @@
         <ul>
           <li><a href="#about">About Us</a></li>
           <li><a href="#contact">Contact Us</a></li>
-          <li><a href="#">Cancellation Policy</a></li>
           <li><a href="#contact">Become a Member</a></li>
           <li><a href="#">Frequently Asked Questions</a></li>
         </ul>
@@ -39,15 +39,15 @@
         <h4>How to Get in Touch</h4>
         <div class="footer-contact-item">
           <span class="ico"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></span>
-          <span>0778 557 355 (WhatsApp)</span>
+          <span>+256 768 302806 (WhatsApp)</span>
         </div>
         <div class="footer-contact-item">
           <span class="ico"><i class="fa-solid fa-phone" aria-hidden="true"></i></span>
-          <span>0778 557 355 (Call)</span>
+          <span>+256 700 603938 (Call)</span>
         </div>
         <div class="footer-contact-item">
-          <span class="ico"><i class="fa-solid fa-phone-volume" aria-hidden="true"></i></span>
-          <span>+256 773 932345</span>
+          <span class="ico"><i class="fa-solid fa-envelope" aria-hidden="true"></i></span>
+          <span>entebbebirdingclub@gmail.com</span>
         </div>
       </div>
     </div>

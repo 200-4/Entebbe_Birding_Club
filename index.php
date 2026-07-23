@@ -6,10 +6,10 @@
     <img src="images/entebbe_birding (10).jpg" alt="Hero slide 1" />
     <div class="hero-scrim"></div>
     <div class="hero-content container">
-      <span class="hero-tag">— Excursion 01 · Grey Crowned Crane</span>
-      <h1 class="hero-title">Bird Watching in Entebbe</h1>
-      <p class="hero-sub">Wake with the sunbirds along Lake Victoria's shoreline forests — Uganda's easiest big-list morning, twenty minutes from the airport.</p>
-      <div class="hero-btn-row"><a href="#destinations" class="btn btn--gold">View Full Package</a></div>
+      <span class="hero-tag">Bird Exploration</span>
+      <h1 class="hero-title">THE BEST BIRDING CLUB IN UGANDA</h1>
+      <p class="hero-sub">Let's Enjoy.Learn - Discover Uganda's Beauty Together.Plan your visit today and immerse yourself in the sights and sounds of nature.</p>
+      <div class="hero-btn-row"><a href="#about-us" class="btn btn--gold">Become a Member</a></div>
     </div>
   </div>
 
@@ -17,10 +17,10 @@
     <img src="images/entebbe_birding (20).jpg" alt="Hero slide 2" />
     <div class="hero-scrim"></div>
     <div class="hero-content container">
-      <span class="hero-tag">— Excursion 02 · Kibale Forest</span>
-      <h1 class="hero-title">Rainforest Bird Encounters</h1>
-      <p class="hero-sub">Track turacos, hornbills and rare Albertine Rift endemics through the canopy trails of Kibale, guided by our senior tour guides.</p>
-      <div class="hero-btn-row"><a href="#destinations" class="btn btn--gold">View Full Package</a></div>
+      <span class="hero-tag">Bird Exploration</span>
+      <h1 class="hero-title">THE BEST BIRDING CLUB IN UGAND</h1>
+      <p class="hero-sub">Discover the magic of birdwatching in one of the most biodiverse locations on Earth</p>
+      <div class="hero-btn-row"><a href="#about-us" class="btn btn--gold">Become a Member</a></div>
     </div>
   </div>
 
@@ -28,10 +28,10 @@
     <img src="images/entebbe_birding (30).jpg" alt="Hero slide 3" />
     <div class="hero-scrim"></div>
     <div class="hero-content container">
-      <span class="hero-tag">— Excursion 03 · Bwindi Add-On</span>
-      <h1 class="hero-title">Birding &amp; Gorilla Trekking</h1>
-      <p class="hero-sub">Pair a Bwindi bird list with a mountain gorilla permit — one itinerary, two once-in-a-lifetime encounters.</p>
-      <div class="hero-btn-row"><a href="#holiday" class="btn btn--gold">View Full Package</a></div>
+      <span class="hero-tag">Bird Exploration</span>
+      <h1 class="hero-title">THE BEST BIRDING CLUB IN UGANDA</h1>
+      <p class="hero-sub">Whether you're an avid birder or a curious explorer, our guided tours, serene landscapes, and rare bird species offer an unforgettable experience.</p>
+      <div class="hero-btn-row"><a href="#about-us" class="btn btn--gold">Become a Member</a></div>
     </div>
   </div>
 
@@ -62,66 +62,53 @@
 <section class="section section--parchment" id="destinations">
   <div class="container">
     <div class="section-head reveal">
-      <span class="eyebrow">Field Log · Destinations</span>
+      <span class="eyebrow">Our  · Excursions</span>
       <h2>Where we take our binoculars</h2>
-      <p>Four landscapes, four bird communities — from wetland shorelines twenty minutes from Entebbe to primate forest deep in the west.</p>
     </div>
 
     <div class="dest-grid">
 
       <article class="dest-card reveal">
         <div class="dest-scope">
-          <span class="dest-tag">SHOEBILL COUNTRY</span>
+          <span class="dest-tag">SEMULIKI NP</span>
           <img src="images/entebbe_birding (11).jpg" alt="Mabamba Wetland" />
         </div>
         <div class="dest-body">
-          <span class="catalog">SPECIES NO. 014 · MABAMBA BAY</span>
-          <h3>Mabamba Wetland</h3>
-          <p>A papyrus canoe glide across Lake Victoria's edge in search of the prehistoric Shoebill Stork, alongside herons, jacanas and kingfishers.</p>
-          <div class="dest-meta"><span>Half-day</span><span>Canoe trip</span><span>Beginner-friendly</span></div>
-          <a href="#contact" class="dest-link">Explore More <i class="fa-solid fa-chevron-right" aria-hidden="true"></i></a>
+          <h3>Entebbe Birding Club at Semuliki</h3>
+          <p>Entebbe Birding Club visited Semliki National Park being guided by Alex (UWA ranger). Birds like Red rumped tinker, Dwarf kingfisher were spotted.</p>
         </div>
       </article>
 
       <article class="dest-card reveal">
         <div class="dest-scope">
-          <span class="dest-tag">LAKESHORE</span>
+          <span class="dest-tag">Entebbe Botanical Gardens</span>
           <img src="images/entebbe_birding (12).jpg" alt="Lake Victoria" />
         </div>
         <div class="dest-body">
-          <span class="catalog">SPECIES NO. 027 · LAKE VICTORIA</span>
-          <h3>Entebbe, Lake Victoria</h3>
-          <p>Discover the mysterious bird species of the Lake Victoria islands — sunbirds, weavers and fish eagles along the botanical gardens shoreline.</p>
-          <div class="dest-meta"><span>Half-day</span><span>Walking</span><span>All levels</span></div>
-          <a href="#contact" class="dest-link">Explore More <i class="fa-solid fa-chevron-right" aria-hidden="true"></i></a>
+          <h3>Entebbe</h3>
+          <p>EBC Holds weekly excursions at Botanical gardens every Wednesday of the week. Many students and nature lovers join our educative excursion.</p>
         </div>
       </article>
 
       <article class="dest-card reveal">
         <div class="dest-scope">
-          <span class="dest-tag">RAINFOREST</span>
+          <span class="dest-tag">UWEC-CA</span>
           <img src="images/entebbe_birding (13).jpg" alt="Kibale Forest" />
         </div>
         <div class="dest-body">
-          <span class="catalog">SPECIES NO. 041 · KIBALE FOREST</span>
           <h3>Kibale Forest Birding</h3>
-          <p>Chase Albertine Rift endemics and turacos beneath a primate-filled canopy — thirteen species of primate share this same trail system.</p>
-          <div class="dest-meta"><span>Full-day</span><span>Forest trail</span><span>Moderate</span></div>
-          <a href="#contact" class="dest-link">Explore More <i class="fa-solid fa-chevron-right" aria-hidden="true"></i></a>
+          <p>EBC hold excursions at UWEC-CA every Friday of the week where go to learn animals, their environment and their behaviour</p>
         </div>
       </article>
 
       <article class="dest-card reveal">
         <div class="dest-scope">
-          <span class="dest-tag">GORILLA ADD-ON</span>
+          <span class="dest-tag">Kibale National Park</span>
           <img src="images/entebbe_birding (14).jpg" alt="Bwindi Gorilla Add-On" />
         </div>
         <div class="dest-body">
-          <span class="catalog">SPECIES NO. 058 · BWINDI IMPENETRABLE</span>
-          <h3>Bwindi Birding + Gorillas</h3>
-          <p>Combine a montane bird list — including the elusive African Green Broadbill — with a permitted mountain gorilla trek.</p>
-          <div class="dest-meta"><span>3 days</span><span>Trekking</span><span>Permit required</span></div>
-          <a href="#contact" class="dest-link">Explore More <i class="fa-solid fa-chevron-right" aria-hidden="true"></i></a>
+          <h3>Members At Kibale National Park</h3>
+          <p>EBC held excursions in Kibale National park, Turaco trails, and swamp nature walks.</p>
         </div>
       </article>
 
@@ -164,58 +151,6 @@
             <li><span class="log-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span>Partner with UWA (Uganda Wildlife Authority) for member discounts and park access.</li>
           </ul>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ============ HOLIDAY / PACKAGES ============ -->
-<section class="section section--parchment" id="holiday">
-  <div class="container">
-    <div class="section-head reveal">
-      <span class="eyebrow">Holiday Packages</span>
-      <h2>Plan your birding holiday</h2>
-      <p>From a single sunrise outing to a full-country circuit — every package is guided by an EBC tour guide and built around real bird activity, not a fixed clock.</p>
-    </div>
-
-    <div class="pkg-grid">
-      <div class="pkg-card reveal">
-        <span class="pkg-days">1 DAY</span>
-        <h3>Entebbe Weekend Warm-Up</h3>
-        <p>A gentle introduction along the Lake Victoria shoreline and botanical gardens — ideal for first-time birders.</p>
-        <ul class="pkg-list">
-          <li>Sunrise start, guided walk</li>
-          <li>Binoculars provided</li>
-          <li>Bird checklist included</li>
-        </ul>
-        <a href="#contact" class="btn btn--outline on-light">Inquire Now</a>
-      </div>
-
-      <div class="pkg-card is-featured reveal">
-        <span class="pkg-ribbon">Most Booked</span>
-        <span class="pkg-days">4 DAYS</span>
-        <h3>Mabamba &amp; Kibale Circuit</h3>
-        <p>Canoe the papyrus swamps for Shoebill, then head west into Kibale's forest canopy for Albertine Rift endemics.</p>
-        <ul class="pkg-list">
-          <li>Shoebill canoe excursion</li>
-          <li>Kibale forest bird trail</li>
-          <li>Senior tour guide throughout</li>
-          <li>Accommodation &amp; transfers</li>
-        </ul>
-        <a href="#contact" class="btn btn--gold">Inquire Now</a>
-      </div>
-
-      <div class="pkg-card reveal">
-        <span class="pkg-days">7 DAYS</span>
-        <h3>Uganda Birding &amp; Gorillas</h3>
-        <p>A full-country circuit pairing our best birding sites with a mountain gorilla trekking permit in Bwindi.</p>
-        <ul class="pkg-list">
-          <li>Mabamba, Kibale &amp; Bwindi</li>
-          <li>Gorilla trekking permit assistance</li>
-          <li>Full-board accommodation</li>
-          <li>Private guide &amp; vehicle</li>
-        </ul>
-        <a href="#contact" class="btn btn--outline on-light">Inquire Now</a>
       </div>
     </div>
   </div>

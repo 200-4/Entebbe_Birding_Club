@@ -17,11 +17,11 @@
       <span class="topbar-book">Book your experience now</span>
       <a class="topbar-phone" href="tel:+256773932345">
         <i class="fa-solid fa-phone" aria-hidden="true"></i>
-        +256 773 932345
+        +256 768 302806
       </a>
       <a class="topbar-phone" href="tel:+256773930005">
         <i class="fa-solid fa-phone" aria-hidden="true"></i>
-        +256 773 930005
+        +256 700 603938
       </a>
     </div>
     <div class="topbar-social">
@@ -42,14 +42,15 @@
     <nav>
       <ul class="nav-list" id="navList">
         <li><a href="#home" class="nav-link active">Home</a></li>
-        <li><a href="#destinations" class="nav-link">Destinations</a></li>
         <li><a href="#about" class="nav-link">About Us</a></li>
-        <li><a href="#holiday" class="nav-link">Holiday</a></li>
+        <li><a href="#guides" class="nav-link">Our Guides</a></li>
+        <li><a href="#guides" class="nav-link">Gallery</a></li>
+        <li><a href="#guides" class="nav-link">Our Corporate Members</a></li>
       </ul>
     </nav>
 
     <div class="header-actions">
-      <a href="#contact" class="btn btn--gold desktop-only">Inquire Now</a>
+      <a href="#contact" class="btn btn--gold desktop-only">View Our Report</a>
       <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
         <i class="fa-solid fa-bars" aria-hidden="true"></i>
       </button>
