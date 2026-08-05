@@ -200,6 +200,14 @@
     <div class="partners-marquee" aria-label="partner logos marquee">
       <div class="partners-track reveal">
         <div class="partner-chip">
+          <img src="images/tilapi_lodge.webp" alt="Tilapia Lodge" />
+        </div>
+        
+        <div class="partner-chip">
+          <img src="images/great_outdoor.webp" alt="Great Outdoor" />
+        </div>
+
+        <div class="partner-chip">
           <img src="images/uganda-wildlife-authority-seeklogo.png" alt="Uganda Wildlife Authority logo" />
         </div>
         <div class="partner-chip">
@@ -211,6 +219,14 @@
         <div class="partner-chip">
           <img src="images/uganda-tourism-board-logo-png_seeklogo-343626.png" alt="Uganda Tourism Board logo" />
         </div>
+        <div class="partner-chip">
+          <img src="images/via_via_logo.png" alt="Via Via Lodge" />
+        </div>
+        <div class="partner-chip">
+          <img src="images/top_logo.png" alt="Topi Lodge" />
+        </div>
+        
+        
       </div>
     </div>
   </div>

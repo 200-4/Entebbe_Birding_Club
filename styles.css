@@ -555,18 +555,18 @@ h1,h2,h3,h4{
   width:min(100%, 560px);
   margin:0 auto;
   overflow:hidden;
-  border:1px solid rgba(178, 140, 24, 0.16);
-  background:rgba(250,246,234,.04);
+  /* border:1px solid rgba(178, 140, 24, 0.16); */
+  /* background:rgba(250,246,234,.04); */
   padding:10px 0;
 }
 .partners-track{
   display:flex;
-  gap:16px;
+  gap:20px;
   width:max-content;
   animation:partnersScroll 16s linear infinite;
   will-change:transform;
 }
-.partner-chip{
+/* .partner-chip{
   flex:0 0 auto;
   border:1px solid var(--parchment-300);
   background:var(--parchment-100);
@@ -575,10 +575,10 @@ h1,h2,h3,h4{
   border-radius:999px;
   min-width:88px;
   min-height:64px;
-}
+} */
 .partner-chip img{
-  width:48px;
-  height:48px;
+  width:88px;
+  height:88px;
   object-fit:contain;
   flex-shrink:0;
   display:block;
