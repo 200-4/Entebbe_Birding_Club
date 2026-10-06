@@ -169,14 +169,14 @@
         <div class="team-photo">
           <img src="images/david_mirro.png" alt="David Miiro" />
         </div>
-        <h4>Bayo Noel</h4>
+        <h4>David Miiro</h4>
         <span>Founder</span>
       </div>
       <div class="team-card reveal">
         <div class="team-photo">
           <img src="images/joel_bala.png" alt="Joel Bala" />
         </div>
-        <h4>Miiro David</h4>
+        <h4>Joel Bala</h4>
         <span>Co-Founder</span>
       </div>
       <div class="team-card reveal">
@@ -220,7 +220,7 @@
           <img src="images/via_via_logo.png" alt="Via Via Lodge" />
         </div>
         <div class="partner-chip">
-          <img src="images/top_logo.png" alt="Topi Lodge" />
+          <img src="images/broad_bill.jpg" alt="Broad Bill Forest Lodge" />
         </div>
         <div class="partner-chip">
           <img src="images/nfl-logo.jpg" alt="Nkima Forest Lodge" />

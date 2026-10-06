@@ -1,10 +1,15 @@
+<?php
+$pageTitle = $pageTitle ?? 'Entebbe Birding Club — Birdwatching, Encounters & Excursions in Uganda';
+$pageDescription = $pageDescription ?? "Entebbe Birding Club (EBC) is a community of passionate birders and tour guides running birdwatching excursions, bird encounters and holiday safaris across Uganda.";
+$currentPage = basename($_SERVER['PHP_SELF'] ?? 'index.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Entebbe Birding Club — Birdwatching, Encounters &amp; Excursions in Uganda</title>
-<meta name="description" content="Entebbe Birding Club (EBC) is a community of passionate birders and tour guides running birdwatching excursions, bird encounters and holiday safaris across Uganda.">
+<title><?= htmlspecialchars($pageTitle, ENT_QUOTES, 'UTF-8') ?></title>
+<meta name="description" content="<?= htmlspecialchars($pageDescription, ENT_QUOTES, 'UTF-8') ?>">
 <link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
@@ -35,16 +40,16 @@
 <!-- ============ MAIN HEADER ============ -->
 <header class="site-header">
   <div class="container">
-    <a href="#home" class="logo">
+    <a href="index.php#home" class="logo">
       <img src="images/ebc_logo_final.svg" alt="Entebbe Birding Club logo" class="logo-mark" />
     </a>
 
     <nav>
       <ul class="nav-list" id="navList">
-        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="index.php#home" class="nav-link<?= $currentPage === 'index.php' ? ' active' : '' ?>">Home</a></li>
         <li><a href="#about" class="nav-link">About Us</a></li>
         <li><a href="#guides" class="nav-link">Our Guides</a></li>
-        <li><a href="#guides" class="nav-link">Gallery</a></li>
+        <li><a href="gallery.php" class="nav-link<?= $currentPage === 'gallery.php' ? ' active' : '' ?>">Gallery</a></li>
         <li><a href="#guides" class="nav-link">Our Corporate Members</a></li>
       </ul>
     </nav>
