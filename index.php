@@ -167,21 +167,21 @@
     <div class="team-grid">
       <div class="team-card reveal">
         <div class="team-photo">
-          <svg viewBox="0 0 200 200"><rect width="200" height="200" fill="#204329"/><circle cx="100" cy="80" r="38" fill="#e8ece0"/><path d="M50 190 C50 140 140 140 150 190Z" fill="#a63d2f"/></svg>
+          <img src="images/david_mirro.png" alt="David Miiro" />
         </div>
         <h4>Bayo Noel</h4>
         <span>Founder</span>
       </div>
       <div class="team-card reveal">
         <div class="team-photo">
-          <svg viewBox="0 0 200 200"><rect width="200" height="200" fill="#345a3b"/><circle cx="100" cy="80" r="38" fill="#f6f1e4"/><path d="M50 190 C50 140 140 140 150 190Z" fill="#16301f"/></svg>
+          <img src="images/joel_bala.png" alt="Joel Bala" />
         </div>
         <h4>Miiro David</h4>
         <span>Co-Founder</span>
       </div>
       <div class="team-card reveal">
         <div class="team-photo">
-          <svg viewBox="0 0 200 200"><rect width="200" height="200" fill="#16301f"/><circle cx="100" cy="80" r="38" fill="#f6f1e4"/><path d="M50 190 C50 140 140 140 150 190Z" fill="#a63d2f"/></svg>
+          <img src="images/nakalema.png" alt="Nakalema Linda" />
         </div>
         <h4>Nakalema Linda</h4>
         <span>Secretary</span>
@@ -211,19 +211,19 @@
           <img src="images/uganda-wildlife-authority-seeklogo.png" alt="Uganda Wildlife Authority logo" />
         </div>
         <div class="partner-chip">
-          <img src="images/uganda-tourism-board-logo-png_seeklogo-343626.png" alt="Uganda Tourism Board logo" />
+          <img src="images/tula_africa_logo.png" alt="Tula Africa logo" />
         </div>
         <div class="partner-chip">
-          <img src="images/uganda-wildlife-authority-seeklogo.png" alt="Uganda Wildlife Authority logo" />
-        </div>
-        <div class="partner-chip">
-          <img src="images/uganda-tourism-board-logo-png_seeklogo-343626.png" alt="Uganda Tourism Board logo" />
+          <img src="images\uwec.png" alt="Uganda Wildlife Authority logo" />
         </div>
         <div class="partner-chip">
           <img src="images/via_via_logo.png" alt="Via Via Lodge" />
         </div>
         <div class="partner-chip">
           <img src="images/top_logo.png" alt="Topi Lodge" />
+        </div>
+        <div class="partner-chip">
+          <img src="images/nfl-logo.jpg" alt="Nkima Forest Lodge" />
         </div>
         
         
