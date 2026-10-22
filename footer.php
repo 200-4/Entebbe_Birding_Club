@@ -3,8 +3,8 @@
   <div class="container">
     <div class="footer-grid">
       <div class="footer-brand">
-        <a href="#home" class="logo">
-          <img src="images/ebc_logo_final.svg" alt="Entebbe Birding Club logo" class="logo-mark" />
+        <a href="<?= !empty($isHomePage) ? '#home' : '/index.php#home' ?>" class="logo">
+          <img src="/images/ebc_logo_final.svg" alt="Entebbe Birding Club logo" class="logo-mark" />
         </a>
         <p>Entebbe Birding Club is a community-based organisation focused on improving awareness of Uganda's communities about birds and their habitats.</p>
         <div class="footer-social">
@@ -28,9 +28,9 @@
       <div class="footer-col">
         <h4>Need to Know About Us</h4>
         <ul>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#contact">Contact Us</a></li>
-          <li><a href="#contact">Become a Member</a></li>
+          <li><a href="<?= !empty($isHomePage) ? '#about' : '/index.php#about' ?>">About Us</a></li>
+          <li><a href="<?= !empty($isHomePage) ? '#contact' : '/index.php#contact' ?>">Contact Us</a></li>
+          <li><a href="<?= !empty($isHomePage) ? '#contact' : '/index.php#contact' ?>">Become a Member</a></li>
           <li><a href="#">Frequently Asked Questions</a></li>
         </ul>
       </div>
@@ -59,6 +59,6 @@
   </div>
 </footer>
 
-<script src="script.js"></script>
+<script src="/script.js"></script>
 </body>
 </html>

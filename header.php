@@ -11,7 +11,7 @@ $isHomePage = $currentPage === 'index.php' && empty($isPostsPage);
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title><?= htmlspecialchars($pageTitle, ENT_QUOTES, 'UTF-8') ?></title>
 <meta name="description" content="<?= htmlspecialchars($pageDescription, ENT_QUOTES, 'UTF-8') ?>">
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="/styles.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 <body>
@@ -41,23 +41,23 @@ $isHomePage = $currentPage === 'index.php' && empty($isPostsPage);
 <!-- ============ MAIN HEADER ============ -->
 <header class="site-header">
   <div class="container">
-    <a href="index.php#home" class="logo">
-      <img src="images/ebc_logo_final.svg" alt="Entebbe Birding Club logo" class="logo-mark" />
+    <a href="/index.php#home" class="logo">
+      <img src="/images/ebc_logo_final.svg" alt="Entebbe Birding Club logo" class="logo-mark" />
     </a>
 
     <nav>
       <ul class="nav-list" id="navList">
-        <li><a href="index.php#home" class="nav-link<?= $isHomePage ? ' active' : '' ?>">Home</a></li>
-        <li><a href="<?= $isHomePage ? '#about' : 'index.php#about' ?>" class="nav-link">About Us</a></li>
-        <li><a href="<?= $isHomePage ? '#guides' : 'index.php#guides' ?>" class="nav-link">Our Guides</a></li>
-        <li><a href="gallery.php" class="nav-link<?= $currentPage === 'gallery.php' ? ' active' : '' ?>">Gallery</a></li>
-        <li><a href="view_posts.php" class="nav-link<?= $currentPage === 'view_posts.php' || !empty($isPostsPage) ? ' active' : '' ?>">Posts</a></li>
-        <li><a href="<?= $isHomePage ? '#guides' : 'index.php#guides' ?>" class="nav-link">Our Corporate Members</a></li>
+        <li><a href="/index.php#home" class="nav-link<?= $isHomePage ? ' active' : '' ?>">Home</a></li>
+        <li><a href="<?= $isHomePage ? '#about' : '/index.php#about' ?>" class="nav-link">About Us</a></li>
+        <li><a href="<?= $isHomePage ? '#guides' : '/index.php#guides' ?>" class="nav-link">Our Guides</a></li>
+        <li><a href="/gallery.php" class="nav-link<?= $currentPage === 'gallery.php' ? ' active' : '' ?>">Gallery</a></li>
+        <li><a href="/view_posts.php" class="nav-link<?= $currentPage === 'view_posts.php' || !empty($isPostsPage) ? ' active' : '' ?>">Posts</a></li>
+        <li><a href="<?= $isHomePage ? '#guides' : '/index.php#guides' ?>" class="nav-link">Our Corporate Members</a></li>
       </ul>
     </nav>
 
     <div class="header-actions">
-      <a href="<?= $isHomePage ? '#contact' : 'index.php#contact' ?>" class="btn btn--gold desktop-only">View Our Report</a>
+      <a href="<?= $isHomePage ? '#contact' : '/index.php#contact' ?>" class="btn btn--gold desktop-only">View Our Report</a>
       <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
         <i class="fa-solid fa-bars" aria-hidden="true"></i>
       </button>
