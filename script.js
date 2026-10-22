@@ -43,17 +43,36 @@ document.addEventListener('DOMContentLoaded', function () {
   /* ---------- MOBILE NAV ---------- */
   var navToggle = document.getElementById('navToggle');
   var navList = document.getElementById('navList');
-  navToggle.addEventListener('click', function () {
-    navList.classList.toggle('is-open');
-  });
-  navList.querySelectorAll('a').forEach(function (a) {
-    a.addEventListener('click', function () { navList.classList.remove('is-open'); });
+  if (navToggle && navList) {
+    navToggle.addEventListener('click', function () {
+      navList.classList.toggle('is-open');
+    });
+    navList.querySelectorAll('a').forEach(function (a) {
+      a.addEventListener('click', function () { navList.classList.remove('is-open'); });
+    });
+  }
+
+  /* ---------- STORY SHARING ---------- */
+  var shareUrl = window.location.href;
+  document.querySelectorAll('.share-link').forEach(function (link) {
+    var network = link.getAttribute('data-share');
+    var shareTarget;
+    if (network === 'facebook') {
+      shareTarget = new URL('https://www.facebook.com/sharer/sharer.php');
+      shareTarget.searchParams.set('u', shareUrl);
+    } else if (network === 'x') {
+      shareTarget = new URL('https://twitter.com/intent/tweet');
+      shareTarget.searchParams.set('url', shareUrl);
+      shareTarget.searchParams.set('text', document.title);
+    }
+    if (shareTarget) link.href = shareTarget.toString();
   });
 
   /* ---------- ACTIVE NAV ON SCROLL ---------- */
   var navLinks = Array.prototype.slice.call(document.querySelectorAll('.nav-link'));
-  var sections = navLinks.map(function (l) {
-    return document.querySelector(l.getAttribute('href'));
+  var sections = navLinks.map(function (link) {
+    var href = link.getAttribute('href');
+    return href && href.charAt(0) === '#' ? document.querySelector(href) : null;
   }).filter(Boolean);
 
   function onScroll() {

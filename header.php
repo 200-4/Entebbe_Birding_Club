@@ -2,6 +2,7 @@
 $pageTitle = $pageTitle ?? 'Entebbe Birding Club — Birdwatching, Encounters & Excursions in Uganda';
 $pageDescription = $pageDescription ?? "Entebbe Birding Club (EBC) is a community of passionate birders and tour guides running birdwatching excursions, bird encounters and holiday safaris across Uganda.";
 $currentPage = basename($_SERVER['PHP_SELF'] ?? 'index.php');
+$isHomePage = $currentPage === 'index.php' && empty($isPostsPage);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -46,16 +47,17 @@ $currentPage = basename($_SERVER['PHP_SELF'] ?? 'index.php');
 
     <nav>
       <ul class="nav-list" id="navList">
-        <li><a href="index.php#home" class="nav-link<?= $currentPage === 'index.php' ? ' active' : '' ?>">Home</a></li>
-        <li><a href="#about" class="nav-link">About Us</a></li>
-        <li><a href="#guides" class="nav-link">Our Guides</a></li>
+        <li><a href="index.php#home" class="nav-link<?= $isHomePage ? ' active' : '' ?>">Home</a></li>
+        <li><a href="<?= $isHomePage ? '#about' : 'index.php#about' ?>" class="nav-link">About Us</a></li>
+        <li><a href="<?= $isHomePage ? '#guides' : 'index.php#guides' ?>" class="nav-link">Our Guides</a></li>
         <li><a href="gallery.php" class="nav-link<?= $currentPage === 'gallery.php' ? ' active' : '' ?>">Gallery</a></li>
-        <li><a href="#guides" class="nav-link">Our Corporate Members</a></li>
+        <li><a href="view_posts.php" class="nav-link<?= $currentPage === 'view_posts.php' || !empty($isPostsPage) ? ' active' : '' ?>">Posts</a></li>
+        <li><a href="<?= $isHomePage ? '#guides' : 'index.php#guides' ?>" class="nav-link">Our Corporate Members</a></li>
       </ul>
     </nav>
 
     <div class="header-actions">
-      <a href="#contact" class="btn btn--gold desktop-only">View Our Report</a>
+      <a href="<?= $isHomePage ? '#contact' : 'index.php#contact' ?>" class="btn btn--gold desktop-only">View Our Report</a>
       <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
         <i class="fa-solid fa-bars" aria-hidden="true"></i>
       </button>

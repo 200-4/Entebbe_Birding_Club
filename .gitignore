@@ -1,0 +1,4 @@
+/private/config.php
+/uploads/posts/*
+!/uploads/posts/.htaccess
+!/uploads/posts/.gitkeep
