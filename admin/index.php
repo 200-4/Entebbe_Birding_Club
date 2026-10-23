@@ -61,7 +61,7 @@ include __DIR__ . '/../header.php';
         </form>
       <?php else: ?>
         <div class="admin-heading admin-heading-row"><div><span class="eyebrow">Club publishing</span><h1>Manage posts</h1><p>Signed in as <?= e($_SESSION['admin_username'] ?? 'admin') ?></p></div><form method="post" action="logout.php"><input type="hidden" name="csrf_token" value="<?= e(csrf_token()) ?>"><button class="btn btn--outline on-light" type="submit">Sign out</button></form></div>
-        <div class="admin-actions"><a class="btn btn--solid" href="edit.php">Create a post</a><a class="admin-public-link" href="../view_posts.php">View public posts →</a></div>
+        <div class="admin-actions"><a class="btn btn--solid" href="edit.php">Create a post</a><a class="btn btn--outline on-light" href="add_admin.php">Add an admin</a><a class="admin-public-link" href="../view_posts.php">View public posts →</a></div>
         <?php if (isset($_GET['saved'])): ?><p class="admin-success" role="status">Post saved.</p><?php elseif (isset($_GET['deleted'])): ?><p class="admin-success" role="status">Post deleted.</p><?php endif; ?>
         <?php if (!$posts): ?><p class="admin-notice">There are no posts yet. Create the first one above.</p><?php else: ?>
           <div class="admin-post-list">
