@@ -167,18 +167,19 @@
     <div class="team-grid">
       <div class="team-card reveal">
         <div class="team-photo">
-          <img src="images/david_mirro.png" alt="David Miiro" />
+          <img src="images/joel_bala.png" alt="Joel Bala" />
         </div>
-        <h4>David Miiro</h4>
+        <h4>Bayo Noel</h4>
         <span>Founder</span>
       </div>
       <div class="team-card reveal">
         <div class="team-photo">
-          <img src="images/joel_bala.png" alt="Joel Bala" />
+          <img src="images/david_mirro.png" alt="David Miiro" />
         </div>
-        <h4>Joel Bala</h4>
+        <h4>David Miiro</h4>
         <span>Co-Founder</span>
       </div>
+
       <div class="team-card reveal">
         <div class="team-photo">
           <img src="images/nakalema.png" alt="Nakalema Linda" />

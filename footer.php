@@ -8,9 +8,8 @@
         </a>
         <p>Entebbe Birding Club is a community-based organisation focused on improving awareness of Uganda's communities about birds and their habitats.</p>
         <div class="footer-social">
-          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
-          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
-          <a href="#" aria-label="X"><i class="fa-brands fa-x" aria-hidden="true"></i></a>
+          <a href="https://facebook.com/groups/1468991843763593/?mibextid=rS40aB7S9Ucbxw6v" aria-label="Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+          <a href="https://x.com/Entebbebirdclub" aria-label="X"><i class="fa-brands fa-x" aria-hidden="true"></i></a>
         </div>
       </div>
 
